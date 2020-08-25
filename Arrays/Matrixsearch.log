@@ -1,0 +1,16 @@
+Input/Output:
+Enter number of row and coloumns: 4 4
+10 20 30 40
+15 25 35 45
+27 29 37 48
+32 33 39 50
+Enter a element to be searched: 29
+The element is found at the position [3, 2]
+
+Input/Output:
+Enter number of row and coloumns: 3 4
+10 20 30 40
+15 25 35 45
+27 29 37 48
+Enter a element to be searched: 100
+Element not Found !
