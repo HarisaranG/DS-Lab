@@ -1,0 +1,11 @@
+Input/Output:
+Enter number of elements: 12
+Enter elements containing 0, 1, 2:
+0 1 1 0 1 2 1 2 0 0 0 1
+The Sorted Array: 0 0 0 0 0 1 1 1 1 1 2 2
+
+Input/Output:
+Enter number of elements: 7
+Enter elements containing 0, 1, 2:
+1 1 1 2 1 2 1
+The Sorted Array: 1 1 1 1 1 2 2
