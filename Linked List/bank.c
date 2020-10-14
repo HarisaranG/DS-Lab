@@ -26,7 +26,7 @@ void delete(BQ *queue){
         char name[100];
         strcpy(name, queue -> Queue[0]);
         for(int i = 0; i < queue -> size - 1; ++i){
-            strcpy(queue -> Queue[i + 1], queue -> Queue[i]);
+            strcpy(queue -> Queue[i], queue -> Queue[i + 1]);
         }
         --(queue -> size);
         printf("%s\n", name);
@@ -37,7 +37,7 @@ void delete(BQ *queue){
 void display(BQ *queue){
     printf("Bank Queue: \n");
     if(queue -> size == 0){
-        printf("Empty !");
+        printf("Empty !\n");
         return;
     } else {
         for(int i = 0; i < queue -> size; ++i){
@@ -68,8 +68,10 @@ int main(){
             default: printf("Wrong Choice\n");
                      break;
         }
-        printf("Do you want to continue ? (y/n) \n");
         scanf("%c", &choice);
+        printf("Do you want to continue ? (y/n)");
+        scanf("%c", &choice);
+        // printf("%c", choice);
     } while(choice == 'y');
     return 0;
 }
